@@ -11,7 +11,7 @@
   --text-primary: #1B1B1B;
   --text-secondary: #333333;
   --text-tertiary: #696969;
-  --text-headline: #E1624F;
+  --text-color-headline: #E1624F;
 
   --accent-blue: #0C51A7;
   --accent-orange: #E95E10;
@@ -19,10 +19,17 @@
   --accent-purple: #591B98;
 
   --font-family: "Open Sans", serif;
-  --text-lg: bold 36px/150% var(--font-family);
-  --text-md: bold 32px/150% var(--font-family);
-  --text-sm: bold 28px/150% var(--font-family);
-  --text-xs: 16px/170% var(--font-family);
-  --text-headline: bold 16px/170% var(--font-family);
-  --text-subtitle: italic 16px/170% var(--font-family);
+  --text-lg: bold 36px var(--font-family);
+  --text-md: bold 32px var(--font-family);
+  --text-sm: bold 28px var(--font-family);
+  --text-xs: 16px var(--font-family);
+  --text-headline: bold 16px var(--font-family);
+  --text-subtitle: italic 16pxvar(--font-family);
+}
+
+.container  {
+  margin-inline: auto;
+  max-width: 1120px;
+
+  /* border: 1px solid red; */
 }

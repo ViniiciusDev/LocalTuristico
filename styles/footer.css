@@ -1,0 +1,6 @@
+footer p  {
+  font: var(--text-xs);
+  color: var(--text-primary);
+  text-align: center;
+  margin-block: 65px 48px;
+}
